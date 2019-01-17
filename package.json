@@ -1,0 +1,44 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "globals": {
+    "selenium": true,
+    "helpers": true,
+    "page": true,
+    "driver": true,
+    "until": true,
+    "by": true,
+    "expect": true,
+    "Promise": true,
+    "browserName": true,
+    "DEFAULT_TIMEOUT": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-register": "^6.26.0",
+    "bluebird": "^3.5.2",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.43.1",
+    "cucumber": "^5.0.2",
+    "cucumber-html-reporter": "^4.0.4",
+    "cucumber-parallel": "^2.0.3",
+    "cucumber-pretty": "^1.4.4",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "file-system": "^2.2.2",
+    "promise": "^8.0.1"
+  },
+  "bin": {
+    "cucumber-js": "./bin/cucumber-js"
+  }
+}
